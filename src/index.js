@@ -14,7 +14,7 @@ class App extends Component{
         this.setState({currval:e.target.value});
     }
     valplan = (e) =>{
-        var val = e.target.checked?"year":"month";
+        var val = (e.target.checked?"year":"month");
         this.setState({valplan:val});
     }
     render(){
